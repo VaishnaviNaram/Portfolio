@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="Stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="" href="https://fonts.google.com/share?selection.family=Fjalla+One | Trirong">
+        
+        <style>
+        body{
+            background-color:rgb(230,230,230);
+            
+        }
+        header{
+            display:flex;
+            flex-direction:row;
+            margin:30px;
+            justify-content:space-between;
+            
+
+
+        }
+        .bi-house-fill{
+            font-size:25px;
+            color:black;
+        }
+        .name{
+            font-size:30px;
+            padding:15px;
+            font-family:"Fjalla+One",sans-serif;
+        }
+        
+        nav span{
+            font-size:20px;
+            text-align:right;
+            font-family:"Trirong",sans-serif;
+
+        }
+        .img{
+            height:400px;
+            width:400px;
+            margin:50px;
+            border-radius:50%;
+        }
+        .section-1{
+            
+            /* text-align:right; */
+            display:flex;
+            flex-direction:row;
+            
+            padding:10px;
+            
+        }
+        .section-title{
+            font-family: "Fjalla One", sans-serif;
+            font-weight: bold;
+            font-size:100px;
+            
+            
+            
+        }
+        .section-title2{
+            font-family:"Trirong",serif;
+            font-weight:bold;
+            font-size:50px;
+        }
+        .section-para{
+            font-size:20px;
+            
+        }
+        
+        button{
+                height: 150px;
+                width: 150px;
+                margin-top: 10px;
+                margin-right: 20px;
+                border-radius: 50%;
+                font-size: 26px;
+                font-family: 'Roboto';
+                font-weight: bold;
+                border-width: 0.3px;
+            }
+            
+        .btn1{
+            background-color: rgb(211, 163, 91);
+        }
+        .btn2{
+            background-color: rgb(220, 92, 92);
+        }
+        #btn3{
+            background-color: rgb(106, 90, 205);
+        }
+        .btn1:hover{
+            background-color: aliceblue;
+            transition: background-color 0.3s ease;
+        }
+        .btn2:hover{
+            background-color: aliceblue;
+            transition: background-color 0.3s ease;
+        }
+        #btn3:hover{
+            background-color: aliceblue;
+            transition: background-color 0.3s ease; 
+        }
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+        .fhead{
+            font-size: 22px;
+            font-family: 'sans-serif';
+            font-weight: bold;
+        }
+        .fcontent{
+            font-family: 'sans-serif';
+            font-size: 16px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+        <div class="header-elements">
+            <a href="portfolio-website.html"><span class="bi bi-house-fill"></span></a>
+            
+            <span class="name">Vaishnavi Naram</span>
+        </div>
+            <nav>
+                <a style="color:black; text-decoration: none;"  href="Vaishnavi_Naram_Resume1.pdf" download="resume">
+                <span>Resume |</span></a>
+                <a href="proj.html" style="color:black; text-decoration: none;">
+                <span>Projects |</span></a>
+                <span id="span3">Contact</span>
+            </nav>
+        </header>
+        <section>
+            
+        
+            <div class="section-1">
+                
+            <img class="img" src="me.jpg">
+                <div>
+                    
+                
+                    <div class="section-title">Hello</div>
+                    <div class="section-title2">A Bit About Me</div>
+                    <div class="section-para">I am an aspiring engineer with a fervent dedication to driving innovation <br>through my
+                    strong problem-solving abilities. My passion lies in tackling<br> complex challenges and finding
+                    creative solutions. I am actively seeking <br>opportunities in technology-driven environments
+                    where I can apply <br>my skills and contribute to meaningful advancements.
+                    </div>
+
+                    <div class="section-btn">
+                        <a href="Vaishnavi_Naram_Resume1.pdf"  style="color: black; text-decoration:none;" download="resume">
+                            <button class="btn1">Resume</button>
+                        </a>
+                        <a href="proj.html"  style="color: black; text-decoration:none;">
+                            <button class="btn2" >Projects</button>
+                        </a>
+                        
+                        <button id="btn3" >Contact</button>
+                        
+
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <footer>
+                <div>
+                    <h1 class="fhead">Phone</h1>
+                    <p class="fcontent">+917337225968</p>
+                </div>
+                <div>
+                    <h1 class="fhead">Email</h1>
+                    <a href="vaishnavi2502@gmail.com"  class="fcontent" style="color: black; text-decoration:none;">vaishnavi2502@gmail.com</a>
+                </div>
+                <div>
+                    <h1 class="fhead">Linkedin</h1>
+                    <a href=https://www.linkedin.com/in/vaishnavi-naram-44757726a/  class="fcontent" style="color: black;text-decoration:none;">vaishnavi-naram-44757726a</a>
+                </div>
+                
+                <div>
+                    <h1 class="fhead">Github</h1>
+                    <a href=https://github.com/VaishnaviNaram class="fcontent" style="color: black;text-decoration:none;">github.com/VaishnaviNaram</a>
+                </div>
+                <div>
+                    <h1 class="fhead">Location</h1>
+                    <p class="fcontent">Hyderabad</p>
+                </div>
+            
+            
+            </footer>
+
+        </section>
+        <script>
+            let span3 = document.getElementById('span3');
+            let button3 = document.getElementById('btn3');
+            function scrollToBottom() {
+                window.scrollBy({
+                    top: 1000, 
+                    behavior : "smooth"});
+            }
+            span3.onclick = function(){
+                scrollToBottom();
+            };
+            button3.onclick = function(){
+                scrollToBottom()
+            };
+        </script>
+    </body>
+</html>

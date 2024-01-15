@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=M+PLUS+Rounded+1c&display=swap | Bebas Neue | Barlow" rel="stylesheet">
+    <title>Projects</title>
+    <style>
+        body{
+            background-color:rgb(230,230,230);  
+        }
+        header{
+                display:flex;
+                flex-direction:row;
+                margin:30px;
+                font-family:sans-serif;
+                justify-content:space-between;
+                
+            }
+            .bi-house-fill{
+            font-size:25px;
+            color:black;
+            }
+            .name{
+                font-size:30px;
+                padding:15px;
+            }
+            
+            nav span{
+                font-size:20px;
+                text-align:right;
+
+            }
+            section{
+                align-items:center;
+                margin:20px;
+                
+            }
+            .container{
+                display:flex;
+                flex-direction:row;
+            }
+            .sec-title{
+                font-size:60px;
+                font-family:"Barlow",sans-serif;  
+                margin-left:50px;              
+            }
+            .section-heading{
+                font-size:30px;
+                margin-top:100px;
+                 margin-left:50px; 
+            }
+            .section-content{
+                margin-top:20px;
+                font-size:17px;
+                 margin-left:50px; 
+            }
+            .sec-img{
+                height:300px;
+                width:800px;
+                margin-left:170px;
+                margin-top:120px;
+            }
+            footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+        .fhead{
+            font-size: 22px;
+            font-family: 'sans-serif';
+            font-weight: bold;
+        }
+        .fcontent{
+            font-family: 'sans-serif';
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-elements">
+            <a href="portfolio-website.html"><span class="bi bi-house-fill"></span></a>
+            <span class="name">Vaishnavi Naram</span>
+        </div>
+            <nav>
+                <a style="color:black; text-decoration: none;"  href="Vaishnavi_Naram_Resume1.pdf" download="resume">
+                <span>Resume |</span></a>
+                <a href="proj.html" style="color:black; text-decoration: none;">
+                <span>Projects |</span></a>
+                <span id="span3">Contact</span>
+                
+            </nav>
+    </header>
+    <section>
+        <span class="sec-title">Projects</span>
+
+        <div class="container">
+            <div>
+                <div class="section-heading">Handwritten Digit Recognition</div>
+                <div class="section-content">    
+                    <span>Human beings can visually sense the world around them by using their eyes and brain. Computer vision works on enabling computers to see and process images in the same way that human vision does. Several algorithms are developed in the area of computer vision to recognize images. To accomplish the recognition task, first, the digits will be segmented into individual digits. Then, a digit recognition module is employed to classify each segmented digit completing the handwritten digit string recognition task.
+                    
+                    </span>
+                </div>
+            </div>
+
+            <img src="sketchpad.jpg" class="sec-img">
+        </div>
+                <div class="container">
+            <div>
+                <div class="section-heading">Student Management System</div>
+                <div class="section-content">    
+                    <span>Managing and organizing student data is an essential aspect of any educational institution.
+
+                    As the number of students increases, it becomes increasingly difficult to keep track of their records manually.
+                    Therefore, a graphical user interface (GUI) for student database management can be a useful tool for schools, colleges, and universities.
+                    A student database GUI provides a user-friendly interface to store, retrieve, and manipulate student data efficiently.
+                    </span>
+                </div>
+            </div>
+
+            <img src="sms.jpg" class="sec-img">
+        </div>
+        <hr>
+        <footer>
+            <div>
+                <h1 class="fhead">Phone</h1>
+                <p class="fcontent">+917337225968</p>
+            </div>
+            <div>
+                <h1 class="fhead">Email</h1>
+                <a href="vaishnavi2502@gmail.com"  class="fcontent" style="color: black; text-decoration:none;">vaishnavi2502@gmail.com</a>
+            </div>
+            <div>
+                <h1 class="fhead">Linkedin</h1>
+                <a href=https://www.linkedin.com/in/vaishnavi-naram-44757726a/  class="fcontent" style="color: black;text-decoration:none;">vaishnavi-naram-44757726a</a>
+            </div>
+            
+            <div>
+                <h1 class="fhead">Github</h1>
+                <a href=https://github.com/VaishnaviNaram class="fcontent" style="color: black;text-decoration:none;">github.com/VaishnaviNaram</a>
+            </div>
+            <div>
+                <h1 class="fhead">Location</h1>
+                <p class="fcontent">Hyderabad</p>
+            </div>
+            
+            
+        </footer>
+        
+    </section>
+    <script>
+            let span3 = document.getElementById('span3');
+            let button3 = document.getElementById('btn3');
+            function scrollToBottom() {
+                window.scrollBy({
+                    top: 1000, 
+                    behavior : "smooth"});
+            }
+            span3.onclick = function(){
+                scrollToBottom();
+            };
+            button3.onclick = function(){
+                scrollToBottom()
+            };
+        </script>
+</body>
+</html>
