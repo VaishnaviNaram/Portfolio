@@ -1,0 +1,111 @@
+ body{
+        background-color:rgb(230,230,230);
+        
+    }
+    header{
+        display:flex;
+        flex-direction:row;
+        margin:30px;
+        justify-content:space-between;
+        
+
+
+    }
+    .bi-house-fill{
+        font-size:25px;
+        color:black;
+    }
+    .name{
+        font-size:30px;
+        padding:15px;
+        font-family:"Fjalla+One",sans-serif;
+    }
+
+    nav span{
+        font-size:20px;
+        text-align:right;
+        font-family:"Trirong",sans-serif;
+
+    }
+    .img{
+        height:400px;
+        width:400px;
+        margin:50px;
+        border-radius:50%;
+    }
+    .section-1{
+        
+        /* text-align:right; */
+        display:flex;
+        flex-direction:row;
+        
+        padding:10px;
+        
+    }
+    .section-title{
+        font-family: "Fjalla One", sans-serif;
+        font-weight: bold;
+        font-size:100px;
+        
+        
+        
+    }
+    .section-title2{
+        font-family:"Trirong",serif;
+        font-weight:bold;
+        font-size:50px;
+    }
+    .section-para{
+        font-size:20px;
+        
+    }
+
+    button{
+            height: 150px;
+            width: 150px;
+            margin-top: 10px;
+            margin-right: 20px;
+            border-radius: 50%;
+            font-size: 26px;
+            font-family: 'Roboto';
+            font-weight: bold;
+            border-width: 0.3px;
+        }
+        
+    .btn1{
+        background-color: rgb(211, 163, 91);
+    }
+    .btn2{
+        background-color: rgb(220, 92, 92);
+    }
+    #btn3{
+        background-color: rgb(106, 90, 205);
+    }
+    .btn1:hover{
+        background-color: aliceblue;
+        transition: background-color 0.3s ease;
+    }
+    .btn2:hover{
+        background-color: aliceblue;
+        transition: background-color 0.3s ease;
+    }
+    #btn3:hover{
+        background-color: aliceblue;
+        transition: background-color 0.3s ease; 
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .fhead{
+        font-size: 22px;
+        font-family: 'sans-serif';
+        font-weight: bold;
+    }
+    .fcontent{
+        font-family: 'sans-serif';
+        font-size: 16px;
+    }
